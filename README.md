@@ -76,6 +76,6 @@ This project provided a **data-driven approach** to analyzing YouTube channels. 
 ---
 
 ## **Author**
-📌 Developed by [Your Name]  
+📌 Developed by [Musa Ceesay]  
 
 ---
