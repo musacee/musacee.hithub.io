@@ -11,7 +11,7 @@ To extract relevant YouTube data, we performed several **SQL transformations**:
   
   Step 1: We get Rid of the unecessary text after the "@" symbol
   
-- **Data Quality Check**
+- **Data Quality Check (Most Important Aspect)**
   - **Data Record Count Check** – Ensuring data has 100 records.
   - **Column Count Check** – Verified the correct structure using `INFORMATION_SCHEMA`.
   - **Data Type Check** – Ensuring the right data type for names in our columns.
