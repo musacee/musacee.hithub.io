@@ -10,12 +10,12 @@ To extract relevant YouTube data, we performed several **SQL transformations**:
   Used `SUBSTRING()` and `CHARINDEX()` to isolate channel names from emails.
   
   Step 1: We get Rid of the unecessary text after the "@" symbol
-  ![Dashboard-Mockup](assets/images/All necessary columns from table.png)
   
-- **Data Cleaning & Validation**
-  - **Data Quality Check** – Ensuring data is **complete** and **accurate**.
+- **Data Quality Check**
+  - **Data Record Count Check** – Ensuring data has 100 records.
   - **Column Count Check** – Verified the correct structure using `INFORMATION_SCHEMA`.
-  - **Data Type Check & Duplicate Removal** – Ensuring no duplicate records exist.
+  - **Data Type Check & Duplicate Removal** – Ensuring the right data type for names in our columns.
+  - **Duplicate Removal Check** – We make sure there aren't any duplicate records.
   
 ✅ **Created a SQL View** that serves as the source for Power BI.
 
