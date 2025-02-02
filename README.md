@@ -28,7 +28,7 @@ To extract relevant YouTube data, we performed several **SQL transformations**:
   - **Duplicate Removal Check** – We make sure there aren't any duplicate records.
     ![Duplicate-Check](assets/images/5_Duplicate_record_check.png)
   
-  -✅ **Created a SQL View** that serves as the source for Power BI.
+  - ✅**Created a SQL View** that serves as the source for Power BI.
     ![SQL-View](assets/images/6_View_created.png)
 
 ---
