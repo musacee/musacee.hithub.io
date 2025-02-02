@@ -17,11 +17,19 @@ To extract relevant YouTube data, we performed several **SQL transformations**:
   
 - **Data Quality Check (Most Important Aspect)**
   - **Data Record Count Check** – Ensuring data has 100 records.
+    ![Record-count](assets/images/3_Data_record_check.png)
+    
   - **Column Count Check** – Verified the correct structure using `INFORMATION_SCHEMA`.
+    ![Column-Count](assets/images/4_Column_count_check.png)
+    
   - **Data Type Check** – Ensuring the right data type for names in our columns.
+    ![Data-Type](assets/images/5_Data_type_check.png)
+    
   - **Duplicate Removal Check** – We make sure there aren't any duplicate records.
+    ![Duplicate-Check](assets/images/5_Duplicate_record_check.png)
   
 ✅ **Created a SQL View** that serves as the source for Power BI.
+    ![SQL-View](assets/images/6_View_created.png)
 
 ---
 
