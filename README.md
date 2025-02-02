@@ -9,8 +9,11 @@ To extract relevant YouTube data, we performed several **SQL transformations**:
 - **Extracting YouTube Channel Names**  
   Used `SUBSTRING()` and `CHARINDEX()` to isolate channel names from emails.
   
-  Step 1: We get Rid of the unecessary text after the "@" symbol
+  Step 1: List all rows for the selected columns needed
   ![Necessary-columns](assets/images/1_All_columns_needed.png)
+
+  Step 2: We get Rid of the unecessary text after the "@" symbol and cast our strings
+  ![Cast-String_name](assets/images/2_cast_string_channel_name.png)
   
 - **Data Quality Check (Most Important Aspect)**
   - **Data Record Count Check** – Ensuring data has 100 records.
