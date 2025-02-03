@@ -41,6 +41,7 @@ This section includes key DAX expressions used in the Power BI reports to calcul
 
   - **Total Subscribers in Millions**
     ![Total_subs](assets/images/1_Total_subscribers_(M).png)
+    
   - **Total Views in Billions**
 
   - **Total Videos Uploaded**
