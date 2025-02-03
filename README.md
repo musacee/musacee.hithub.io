@@ -104,7 +104,7 @@ This section includes key DAX expressions used in the Power BI reports to calcul
 
 ### **Key Visual type Designs**:
 - **Table View**: Displays all available YouTube data.
-  ![Table](assets/images/Table_view.png)
+  ![Table](assets/images/Table_View.png)
   
 - **Treemap**: Shows **Top 20 YouTube Channels** by total views.
 - **Scorecard**: Highlights key statistics such as **Total Subscribers, Total Views, and Engagement Rate**.
