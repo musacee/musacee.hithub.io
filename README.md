@@ -36,7 +36,10 @@ To extract relevant YouTube data, we performed several **SQL transformations**:
 ## **2. Power BI Visualizations**
 After data extraction, we imported the cleaned dataset into **Power BI** to create interactive dashboards.  
 
-### **Key Components**:
+### **DAX Expressions**
+This section includes key DAX expressions used in the Power BI reports to calculate metrics such as total views, engagement rates, and revenue estimates.
+
+### **Key Visual type Designs**:
 - **Table View**: Displays all available YouTube data.
 - **Treemap**: Shows **Top 20 YouTube Channels** by total views.
 - **Scorecard**: Highlights key statistics such as **Total Subscribers, Total Views, and Engagement Rate**.
