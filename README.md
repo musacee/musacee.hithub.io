@@ -39,7 +39,17 @@ After data extraction, we imported the cleaned dataset into **Power BI** to crea
 ### **DAX Expressions**
 This section includes key DAX expressions used in the Power BI reports to calculate metrics such as total views, engagement rates, and revenue estimates.
 
-  - **Measure For Total Subscribers in Millions**
+  - **Total Subscribers in Millions**
+
+  - **Total Views in Billions**
+
+  - **Total Videos Uploaded**
+
+  - **Average Views Per Video in Millions(how many views each video generates)**
+
+  - **Subscriber Engagement Rate(How often subscribers engage with content)**
+
+  - **Views Per Subscriber**
 
 ### **Key Visual type Designs**:
 - **Table View**: Displays all available YouTube data.
