@@ -50,14 +50,57 @@ This section includes key DAX expressions used in the Power BI reports to calcul
     ```
 
   - **Total Views in Billions**
+    ```DAX
+    Total Views (B) = 
+    VAR billion = 1000000000
+    VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
+    VAR totalViews = ROUND(sumOfTotalViews / billion, 2)
+
+    RETURN totalViews
+    ```
 
   - **Total Videos Uploaded**
+    ```DAX
+    Total Videos = 
+    VAR totalVideos = SUM(view_uk_youtubers_2024[total_videos])
+
+    RETURN totalVideos
+    ```
+
 
   - **Average Views Per Video in Millions(how many views each video generates)**
+    ```DAX
+    Average Views per Video (M) = 
+    VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
+    VAR sumOfTotalVideos = SUM(view_uk_youtubers_2024[total_videos])
+    VAR  avgViewsPerVideo = DIVIDE(sumOfTotalViews,sumOfTotalVideos, BLANK())
+    VAR finalAvgViewsPerVideo = DIVIDE(avgViewsPerVideo, 1000000, BLANK())
+
+    RETURN finalAvgViewsPerVideo
+    ``` 
+
 
   - **Subscriber Engagement Rate(How often subscribers engage with content)**
+    ```DAX
+    Subscriber Engagement Rate = 
+    VAR sumOfTotalSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+    VAR sumOfTotalVideos = SUM(view_uk_youtubers_2024[total_videos])
+    VAR subscriberEngRate = DIVIDE(sumOfTotalSubscribers, sumOfTotalVideos, BLANK())
+
+    RETURN subscriberEngRate
+    ```
+
 
   - **Views Per Subscriber**
+    ```DAX
+    Views Per Subscriber = 
+    VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
+    VAR sumOfTotalSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+    VAR viewsPerSubscriber = DIVIDE(sumOfTotalViews, sumOfTotalSubscribers, BLANK())
+
+    RETURN viewsPerSubscriber
+    ``` 
+
 
 ### **Key Visual type Designs**:
 - **Table View**: Displays all available YouTube data.
