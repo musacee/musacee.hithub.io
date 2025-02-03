@@ -109,7 +109,7 @@ This section includes key DAX expressions used in the Power BI reports to calcul
 - **Treemap**: Shows **Top 20 YouTube Channels** by total views.
   ![Treemap](assets/images/Treemap_View.png)
   
-- **Scorecard**: Highlights key statistics such as **Total Subscribers, Total Views, and Engagement Rate**.
+- **Scorecard**: Highlights key statistics such as **Total Subs, Total Views, and Engagement Rate**.
   ![Scorecard](assets/images/Scorecard_View.png)
   
 - **Horizontal Bar Chart**: Displays **Top 10 Channels by Subscribers**.
