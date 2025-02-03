@@ -40,7 +40,7 @@ After data extraction, we imported the cleaned dataset into **Power BI** to crea
 This section includes key DAX expressions used in the Power BI reports to calculate metrics such as total views, engagement rates, and revenue estimates.
 
   - **Total Subscribers in Millions**
-    ![Total_subs](assets/images/1_Total_subscribers_(M).png)
+    
     
   - **Total Views in Billions**
 
