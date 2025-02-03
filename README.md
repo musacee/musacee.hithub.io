@@ -123,6 +123,7 @@ This section includes key DAX expressions used in the Power BI reports to calcul
   ![Color-Scheme](assets/images/Color_Scheme_youtube.png)
   
 - Enabled cross-filtering – clicking on a channel filters the entire dashboard.
+  ![Dashboard-gif](assets/images/top_uk_youtubers_2024.gif)
 
 ---
 
