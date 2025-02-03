@@ -107,13 +107,21 @@ This section includes key DAX expressions used in the Power BI reports to calcul
   ![Table](assets/images/Table_View.png)
   
 - **Treemap**: Shows **Top 20 YouTube Channels** by total views.
+  ![Treemap](assets/images/Treemap_Views.png)
+  
 - **Scorecard**: Highlights key statistics such as **Total Subscribers, Total Views, and Engagement Rate**.
+  ![Scorecard](assets/images/Scorecard_View.png)
+  
 - **Horizontal Bar Chart**: Displays **Top 10 Channels by Subscribers**.
+  ![Bar-Chart](assets/images/Horizontal_Bar_View.png)
 
 🎨 **Dashboard Formatting & UX Improvements**:
-- Renamed column headers for clarity.
-- Adjusted X/Y-axis ranges.
+- Renamed column headers for clarity and Adjusted X/Y-axis ranges.
+  ![Format-Table](assets/images/Adjust_XY_Axis.png)
+  
 - Applied conditional formatting with YouTube-themed colors.
+  ![Color-Scheme](assets/images/Color_Scheme_youtube.png)
+  
 - Enabled cross-filtering – clicking on a channel filters the entire dashboard.
 
 ---
