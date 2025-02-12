@@ -131,11 +131,11 @@ This section includes key DAX expressions used in the Power BI reports to calcul
 To further analyze **business insights**, we imported Power BI results into Excel.
 
 **Metrics Computed:**
-- **Conversion Rate**: Measures how many viewers purchase a product after watching a video.
-- **Campaign Cost**: Amount spent per influencer.
-- **Potential Product Sales per Video**: (Avg. views per video) × (Conversion rate).
-- **Potential Revenue per Video**: (Product Sales) × (Product Cost).
-- **Net Profit**: (Revenue) - (Campaign Cost).
+- **Conversion Rate**: Measures how many viewers purchase a product after watching a video. In this case we are going to say 2% of viewers purchased the product
+- **Campaign Cost**: Amount spent per influencer. We are going to say $50,000 for each influencer
+- **Potential Product Sales per Video**: How many products we can sell knowing how much views they average per video. (Avg. views per video) × (Conversion rate).
+- **Potential Revenue per Video**:How much money we can make (Product Sales) × (Product Cost).
+- **Net Profit**: (Potential Revenue) - (Campaign Cost).
 
 ✅ **Excel Formatting Enhancements**:
 - Shortcuts for efficient formatting (e.g., `ALT + H + M + C` to center text).
