@@ -137,6 +137,7 @@ To further analyze **business insights**, we imported Power BI results into Exce
 - **Potential Revenue per Video**:How much money we can make (Product Sales) × (Product Cost).
 - **Net Profit**: (Potential Revenue) - (Campaign Cost).
   
+  
 
 ✅ **Excel Formatting Enhancements**:
 - Shortcuts for efficient formatting (e.g., `ALT + H + M + C` to center text).
