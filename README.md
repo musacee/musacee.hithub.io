@@ -136,10 +136,12 @@ To further analyze **business insights**, we imported Power BI results into Exce
 - **Potential Product Sales per Video**: How many products we can sell knowing how much views they average per video. (Avg. views per video) × (Conversion rate).
 - **Potential Revenue per Video**:How much money we can make (Product Sales) × (Product Cost).
 - **Net Profit**: (Potential Revenue) - (Campaign Cost).
+  ![Excel-table](assets/images/1_excel_wo_formatting.png)
 
 ✅ **Excel Formatting Enhancements**:
 - Shortcuts for efficient formatting (e.g., `ALT + H + M + C` to center text).
 - Conditional formatting applied to highlight revenue trends.
+  ![table-wth-formatting](assets/images/2_excel_table_wth_formatting.png)
 
 ---
 
