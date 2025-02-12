@@ -102,7 +102,7 @@ This section includes key DAX expressions used in the Power BI reports to calcul
     ``` 
 
 
-### **Key Visual type Designs**:
+### *Key Visual type Designs*:
 - **Table View**: Displays all available YouTube data.
   ![Table](assets/images/Table_View.png)
   
