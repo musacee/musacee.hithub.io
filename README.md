@@ -15,7 +15,7 @@ To extract relevant YouTube data, we performed several **SQL transformations**:
   Step 2: We get Rid of the unecessary text after the "@" symbol and cast our strings
   ![Cast-String_name](assets/images/2_cast_string_channel_name.png)
   
-- **Data Quality Check (Most Important Aspect)**
+  **Data Quality Check (Most Important Aspect)**
   - **Data Record Count Check** – Ensuring data has 100 records.
     ![Record-count](assets/images/3_Data_record_check.png)
     
@@ -36,7 +36,7 @@ To extract relevant YouTube data, we performed several **SQL transformations**:
 ## **2. Power BI Visualizations**
 After data extraction, we imported the cleaned dataset into **Power BI** to create interactive dashboards.  
 
-### **DAX Expressions**
+### *DAX Expressions*
 This section includes key DAX expressions used in the Power BI reports to calculate metrics such as total views, engagement rates, and revenue estimates.
 
   - **Total Subscribers in Millions**
