@@ -124,6 +124,8 @@ This section includes key DAX expressions used in the Power BI reports to calcul
 - Enabled cross-filtering – clicking on a channel filters the entire dashboard.
   ![Dashboard-gif](assets/images/top_uk_youtubers_2024.gif)
 
+### *What we have discovered*:
+  With further analysis into the dashboard we have determined that the top three youtube channels with the most subscribers are NoCopyrightSounds with 33.6M subscribers, DanTDM with 28.6M, and Dan Rhodes with 26.5M. With these channels we are going to use the Avg views per video (in millions) from each of the three channels to further our analysis for our client.
 ---
 
 ## **3. Excel Data Analysis**
@@ -148,7 +150,7 @@ To further analyze **business insights**, we imported Power BI results into Exce
 ---
 
 ## **4. SQL & Excel Cross-Validation**
-📊 Final validation step:  
+📊 Final validation step:  Now the same outputs we determined in Excel will now be determined using SQL
 - Compared **Excel outputs with SQL results** for consistency.
 - Performed validation checks in SQL Result Window.
 
