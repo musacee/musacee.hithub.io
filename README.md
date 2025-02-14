@@ -125,7 +125,7 @@ This section includes key DAX expressions used in the Power BI reports to calcul
   ![Dashboard-gif](assets/images/top_uk_youtubers_2024.gif)
 
 ### *What we have discovered*:
-  With further analysis into the dashboard we have determined that the top three youtube channels with the most subscribers are NoCopyrightSounds with 33.6M subscribers, DanTDM with 28.6M, and Dan Rhodes with 26.5M. With these channels we are going to use the Avg views per video (in millions) from each of the three channels to further our analysis for our client.
+ With further analysis into the dashboard we have determined that the top three youtube channels with the most subscribers are NoCopyrightSounds with 33.6M subscribers, DanTDM with 28.6M, and Dan Rhodes with 26.5M. With these channels we are going to use the Avg views per video (in millions) from each of the three channels to further our analysis for our client.
 ---
 
 ## **3. Excel Data Analysis**
