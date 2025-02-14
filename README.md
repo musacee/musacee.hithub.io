@@ -1,7 +1,6 @@
 # Data Portfolio: Excel to Power BI
+![cover-photo](assets/images/cover_photo_for_project.jpg)
 
-
-This is my portfolio website, hope you take something from it!
 
 ## **1. Data Extraction from SQL Server**
 To extract relevant YouTube data, we performed several **SQL transformations**:
