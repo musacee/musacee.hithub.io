@@ -1,5 +1,5 @@
 # Data Portfolio: Excel to Power BI
-![cover-photo](assets/images/cover_photo_for_project.jpg)
+![cover-photo](assets/images/kaggle_to_powerbi.gif)
 
 
 ## **1. Data Extraction from SQL Server**
