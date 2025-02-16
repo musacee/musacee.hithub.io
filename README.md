@@ -9,7 +9,7 @@ To extract relevant YouTube data, we performed several **SQL transformations**:
   Used `SUBSTRING()` and `CHARINDEX()` to isolate channel names from emails.
   
   Step 1: List all rows for the selected columns needed
-  ![Necessary-columns](assets/images/1_All_columns_needed.png)
+  ![Necessary-columns](assets/images/1_All_columns_needed2.png)
 
   Step 2: We get Rid of the unecessary text after the "@" symbol and cast our strings
   ![Cast-String_name](assets/images/2_cast_string_channel_name.png)
