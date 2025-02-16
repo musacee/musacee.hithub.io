@@ -223,8 +223,12 @@ WHERE
 --5.
 ORDER BY net_profit DESC
 ```
+
+### *Output*
+![SQL-Output](assets/images/SQL_validation.png)
+
 - Compared **Excel outputs with SQL results** for consistency.
-- Performed validation checks in SQL Result Window.
+![Excel-SQL-Output](assets/images/SQL_and_excel_cross_validation.png)
 
 ---
 
