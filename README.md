@@ -229,7 +229,7 @@ ORDER BY net_profit DESC
 
 
 - Compared **Excel outputs with SQL results** for consistency.
-![Excel-SQL-comparison](assets/images/SQL_and_excel_cross_validation.png)
+
 
 
 ---
