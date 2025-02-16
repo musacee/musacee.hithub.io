@@ -176,6 +176,53 @@ To further analyze **business insights**, we imported Power BI results into Exce
 
 ## **4. SQL & Excel Cross-Validation**
 📊 Final validation step:  Now the same outputs we determined in Excel will now be determined using SQL
+
+### *SQL Query*
+```SQL
+/*
+
+1. Define the variables
+2. Create a CTE (round the average views per video column, potential units sold, potential revenue per video, net_profit)
+3. Select columns that are appropriate for the analysis
+4. Filter the results by youtube channels with highest subscriber bases
+5. Order by net_profit (from highest to lowest)
+
+
+*/
+
+--1.
+DECLARE @conversionRate FLOAT = 0.02;		-- The conversion rate at 2%
+DECLARE @productCost MONEY = 5.0;			-- The product cost at $5
+DECLARE @campaignCost MONEY = 50000.0;	-- The campaign cost at $50,000
+
+
+--2 and 3.
+WITH ChannelData AS (
+	SELECT 
+		channel_name,
+		total_views,
+		total_videos,
+		ROUND((CAST(total_views AS FLOAT) / total_videos), -4) AS rounded_avg_views_per_video
+	FROM 
+		view_uk_youtubers_2024
+)
+
+SELECT 
+	channel_name,
+	rounded_avg_views_per_video,
+	(rounded_avg_views_per_video * @conversionRate) AS potential_units_sold_per_video,
+	(rounded_avg_views_per_video * @conversionRate * @productCost) AS potential_revenue_per_video,
+	(rounded_avg_views_per_video * @conversionRate * @productCost) - @campaignCost AS net_profit
+FROM 
+	ChannelData
+
+--4.
+WHERE 
+	channel_name IN ('NoCopyrightSounds', 'DanTDM', 'Dan Rhodes')
+
+--5.
+ORDER BY net_profit DESC
+```
 - Compared **Excel outputs with SQL results** for consistency.
 - Performed validation checks in SQL Result Window.
 
