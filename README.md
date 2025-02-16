@@ -126,6 +126,7 @@ This section includes key DAX expressions used in the Power BI reports to calcul
 
 ### *What we have discovered* :
  With further analysis into the dashboard we have determined that the top three youtube channels with the most subscribers are NoCopyrightSounds with 33.6M subscribers, DanTDM with 28.6M, and Dan Rhodes with 26.5M. With these channels we are going to use the Avg views per video (in millions) from each of the three channels to further our analysis for our client.
+ 
 ---
 
 ## **3. Excel Data Analysis**
@@ -138,8 +139,17 @@ To further analyze **business insights**, we imported Power BI results into Exce
 - **Potential Revenue per Video**:How much money we can make (Product Sales) × (Product Cost).
 - **Net Profit**: (Potential Revenue) - (Campaign Cost).
   ![excel-table](assets/images/1_excel_table_wo_formatting.png)
+
+  ### *Calculation Breakdown for the top three subscribed channels*
+    1. NoCopyrightSounds
+       - Average Views per video = 6.92 million
+       - Product Cost = $5
+       - Potential Units sold per video = 6.92 million x 2% conversion rate = 138,400 units sold
+       - Potential revenue per video = 138,400 x $5 = $692,000
+       - Campaign cost (one-time fee) = $50,000
+       - **Net profit = $692,000 - $50,000 = $642,000**
   
-  
+
 
 ✅ **Excel Formatting Enhancements**:
 - Shortcuts for efficient formatting (e.g., `ALT + H + M + C` to center text).
