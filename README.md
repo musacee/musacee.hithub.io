@@ -147,7 +147,7 @@ To further analyze **business insights**, we imported Power BI results into Exce
        - Potential units sold per video = 6.92 million x 2% conversion rate = 138,400 units sold
        - Potential revenue per video = 138,400 x $5 = $692,000
        - Campaign cost (one-time fee) = $50,000
-       - **Net profit = $692,000 - $50,000 = $642,000**
+       - Net profit = $692,000 - $50,000 = $642,000
 
     2. DanTDM
       - Average views per video = 5.34 million
@@ -155,7 +155,7 @@ To further analyze **business insights**, we imported Power BI results into Exce
       - Potential units sold per video = 5.34 million x 2% conversion rate = 106,800 units sold
       - Potential revenue per video = 106,800 x $5 = 534,000
       - Campaign cost (one-time fee) = $50,000
-      - **Net profit = $534,000 - $50,000 = $484,000**
+      - Net profit = $534,000 - $50,000 = $484,000
 
     3. Dan Rhodes
       - Average views per video = 11.15 million
@@ -163,7 +163,7 @@ To further analyze **business insights**, we imported Power BI results into Exce
       - Potential units sold per video = 11.15 million x 2% conversion rate = 223,000 units sold
       - Potential revenue per video = 223,000 x $5 = $1,115,000
       - Campaign cost (one-time fee) = $50,000
-      - **Net profit = $1,115,000 - $50,000 = $1,065,000**
+      - Net profit = $1,115,000 - $50,000 = $1,065,000
 
 
 ✅ **Excel Formatting Enhancements**:
