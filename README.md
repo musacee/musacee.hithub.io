@@ -237,7 +237,7 @@ ORDER BY net_profit DESC
 
 
 ## **Conclusion**
-This project provided a **data-driven approach** to analyzing YouTube channels. By integrating **SSMS, Power BI, and Excel**, we gained actionable insights into subscriber engagement and revenue potential.
+This project provided a **data-driven approach** to analyzing YouTube channels. By integrating **SSMS, Power BI, and Excel**, we gained actionable insights into subscriber engagement and revenue potential. We have discovered that NoCopyrightSounds has the most subscribers out of the top three choices. But NoCopyRightSounds has less videos than Dan Rhodes and Dan Rhodes has more total views than NoCopyRightSounds. If we are looking at the average views compared to the subscriber’s engagement rate, Dan Rhodes has the advantage since there is more engagement. Meaning that there will be a higher return on investment of $50,000 if the client chooses to campaign with Dan Rhodes.
 
 ### **🚀 Technologies Used**
 - SQL Server (SSMS)  
