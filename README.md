@@ -225,10 +225,10 @@ ORDER BY net_profit DESC
 ```
 
 ### *Output*
-![SQL-Output](assets/images/SQL_validation.png)
+
 
 - Compared **Excel outputs with SQL results** for consistency.
-![Excel-SQL-Output](assets/images/SQL_and_excel_cross_validation.png)
+
 
 ---
 
