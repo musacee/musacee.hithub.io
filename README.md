@@ -241,16 +241,22 @@ This project provided a **data-driven approach** to analyzing YouTube channels. 
 
 
 PowerBI table:
+
+
 ![subscriber-table](assets/images/Final_verdict_table.png)
 
 
 
 Dan Rhodes Scorecard:
+
+
 ![Scorecard](assets/images/Dan_rhodes_scorecard.png)
 
 
 
 NoCopyRightSounds Scorecard:
+
+
 ![Scorecard](assets/images/NoCopyRightSounds_scorecard.png)
 
 ### **🚀 Technologies Used**
