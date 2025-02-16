@@ -229,16 +229,11 @@ ORDER BY net_profit DESC
 
 
 - Compared **Excel outputs with SQL results** for consistency.
+![Excel-SQL-comparison](assets/images/SQL_and_excel_cross_validation.png)
 
 
 ---
 
-## **5. Screenshots of the Workflow**
-Below are key proof-of-work screenshots extracted from our analysis:
-
-> _(Attach relevant images here)_
-
----
 
 ## **Conclusion**
 This project provided a **data-driven approach** to analyzing YouTube channels. By integrating **SSMS, Power BI, and Excel**, we gained actionable insights into subscriber engagement and revenue potential.
