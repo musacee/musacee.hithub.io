@@ -8,10 +8,11 @@ The Head of Marketing wants to find out who the top YouTubers are in 2024 to dec
 - What is the ideal solution?
 To create a dashboard that provides insights into the top UK YouTubers in 2024 that includes their
 
--subscriber count
--total views
--total videos
--engagement metrics
+- Subscriber Count
+- Total Views
+- Total Videos
+- Engagement Metrics
+  
 This will help the marketing team make informed decisions about which YouTubers to collaborate with for their marketing campaigns.
 
 ### *User Story*
